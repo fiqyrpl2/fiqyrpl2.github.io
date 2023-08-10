@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f5f5;
+  }
+  nav {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: blue;
+}
+
+  section {
+    background-image: url("7c14bcb2-9b4e-4d6e-80af-bb1d5db01f07.jpg");
+       }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  h3 {
+    margin: 5px 0;
+  }
+  p, ul {
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  .project {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+  }
+  .project:last-child {
+    border: none;
+  }
+  .project h3 {
+    margin-top: 0;
+  }
+  .project-description {
+    margin-top: 5px;
+  }
+  .project-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  .contact {
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* contect */
+
+.contact-form {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact-form h2 {
+margin-bottom: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
